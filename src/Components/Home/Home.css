@@ -1,0 +1,29 @@
+.hero{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: auto;
+padding: 40px 0;
+}
+
+
+.hero h1{
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;  
+}
+
+.Games{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 80px 0;
+  flex-wrap: wrap;
+}
+
+.Games img {
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+}
