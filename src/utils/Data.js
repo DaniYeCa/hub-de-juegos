@@ -1,7 +1,7 @@
 export const request = [
   {
     tematica: 'Cultura General',
-    imagen: 'public/assets/cultura.png',
+    imagen: './assets/cultura.png',
     preguntas: [
       {
         pregunta: "¿Qué metal es el principal componente del acero inoxidable?",
@@ -88,7 +88,7 @@ export const request = [
   },
   {
     tematica: 'Pokemon',
-    imagen: 'public/assets/char-pikachu.png',
+    imagen: './assets/char-pikachu.png',
     preguntas: [
       {
         pregunta: "¿Qué Pokémon es de tipo fuego?:",
