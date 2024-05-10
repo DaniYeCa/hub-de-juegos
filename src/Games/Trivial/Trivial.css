@@ -1,0 +1,77 @@
+.contenedor-trivial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.iconos-contenedor {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-tema {
+  background-color: transparent;
+  border: none;
+  margin: 1rem;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.icono-imagen {
+  border-radius: 20px;
+  background-color: transparent;
+  object-fit: cover;
+  width: 100%;
+}
+
+.contenedor-preguntas > h3 {
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.contenedor-preguntas {
+  box-shadow: 0px 8px 5px 0px rgba(151, 12, 197, 0.435);
+}
+
+.contenedor-respuesta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+.boton-respuesta {
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.contador-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-preguntas,
+.contenedor-respuesta {
+  background-color: transparent;
+}
+
+
+.contenedor-resultado,
+.contenedor-resultado > p {
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}

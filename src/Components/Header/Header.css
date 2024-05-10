@@ -1,0 +1,9 @@
+h1{
+    cursor: pointer;
+    background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+  }

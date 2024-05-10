@@ -1,0 +1,77 @@
+.ahorcado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+#pantalla-ahorcado,
+#letras-izquierda,
+#letra-input,
+#adivinar-boton,
+#reset-juego {
+  margin-bottom: 20px;
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#pantalla-ahorcado {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+
+
+#adivinar-boton,
+#reset-juego {
+  height: 35px;
+  margin: 10px;
+  width: 120px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px;
+  transition: 500ms;
+  border-radius: 5px;
+  border-color: rgb(247, 0, 255);
+}
+
+#letra-input {
+  border-radius: 10px;
+  outline: 2px solid rgb(30, 0, 255);
+  border: 0;
+  background-color: black;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+  color: rgb(247, 0, 255);
+}
+
+#letra-input:focus {
+  outline-offset: 5px;
+}
+
+#letras-usadas {
+  background: linear-gradient(rgb(30, 0, 255),rgb(247, 0, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #pantalla-ahorcado {
+      font-size: 18px;
+  }
+
+  #adivinar-boton,
+  #reset-juego {
+      width: 100px;
+  }
+
+  #letra-input {
+      padding: 8px 0.8rem;
+  }
+}
