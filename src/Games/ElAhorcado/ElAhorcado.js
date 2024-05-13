@@ -145,7 +145,7 @@ const ElAhorcado = () => {
     alert("¡!Has Ganado");
   }
   const gameLost = () => {
-    abilitarInputYBoton();
+    alert("¡Has perdido, prueba otra vez!");
   }
 
   const abilitarInputYBoton = () => {
