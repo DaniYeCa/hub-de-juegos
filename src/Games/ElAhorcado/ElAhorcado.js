@@ -85,7 +85,7 @@ const ElAhorcado = () => {
   };
 
   const solucionar = (letra) => {
-    if (intentosRestantes > 0) {
+    if (intentosRestantes > 0 && !checkWin()) {
       if (letra.length === 1 && letra.match(/[A-Z]/)) {
         letraAdivinada(letra);
         document.getElementById('letra-input').value = '';
@@ -142,7 +142,7 @@ const ElAhorcado = () => {
   };
 
   const gameWon = () => {
-    abilitarInputYBoton();
+    alert("¡!Has Ganado");
   }
   const gameLost = () => {
     abilitarInputYBoton();

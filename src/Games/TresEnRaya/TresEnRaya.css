@@ -84,16 +84,19 @@ span {
   border-bottom: 3px solid ;
   box-shadow: 1px 5px 5px 0px rgba(166, 0, 255, 0.35);
 }
-@media (max-width: 420px) {
+@media (max-width: 732px) {
   .contenedor-juego {
     gap: 30px;
+    display: flex;
+    flex-direction: column;
   }
   .boton-contenedor {
     margin-top: 0;
   }
   .tablero {
     margin-top: 0;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 }
+

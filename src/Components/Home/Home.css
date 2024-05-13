@@ -8,8 +8,16 @@
 }
 
 .Games img {
-  width: 250px;
+  width: 230px;
   height: auto;
   cursor: pointer;
 }
 
+@media screen and (max-width: 475px) {
+.Games{
+  height: 50vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+}
